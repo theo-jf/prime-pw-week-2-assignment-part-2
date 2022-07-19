@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called name and set it to the string 'Dane'.
+// We check name for equality of value and datatype with the string 'Mary'.
+// If name was 'Mary', then we would console log 'Hi, Mary!'
+// Since name is 'Dane', the else conditional is triggered, and we console log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create variables called secret and code. We don't yet assign secret a value, but we give code a number value of 123.
+// We check code for equality of value and datatype with the number 123. Since they are equal, we give secret the value of the string 'super', and multiply the value of code by 2, making it equal to the number 246.
+// We then check to see if code is greater than the number 250. If it were, secret would be set to the string value of 'duper'.
+// Lastly, we console log secret, giving us the string output of 'super'.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a boolean called isStudent, setting it equal to true, along with the variables age and zip, giving them the number values of 34 and 55407 respectively.
+// We check if isStudent is true and if zip is greater than the number value 80000. If zip were greater than 80000, we would console log the string 'You're a student on the West Coast!'.
+// We then check if isStudent is false or if age is less than the number value of 30. If either were true, we would console log the string 'What are your hobbies?'.
+// We then check if isStudent is true. Since it is, we console log the string 'Welcome to Prime!'. If isStudent were false, we would console log the string 'How about the weather?'.
 
 //CODE
 /*
