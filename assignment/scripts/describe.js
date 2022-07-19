@@ -130,11 +130,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne is set to 'red' and colorTwo is set to 'blue', but the instructions specify the values be the other way around.
+// Should be colorOne = 'blue';
+// colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // FIX - the instructions specify to set both colorOne and colorTwo to purple, but only colorOne is being changed.
+  // Should be colorOne = colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -147,6 +152,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - the instructions call for checking if temp is greater than 39 AND if time is greater than or equal to 4. The current conditional will trigger the log even if only one of them is true.
+// Should be if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +167,13 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - while the current code will check if age is greater than or equal to minAge correctly, it will log 'no entry' instead of 'entry'.
+// Should be 
+// if(minAge <= age) {
+//    console.log('enter');
+// } else {
+//    console.log('no entry');
+// }
 if(minAge <= age) {
   console.log('no entry');
 } else {
